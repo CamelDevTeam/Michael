@@ -1,0 +1,44 @@
+#clock {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 10px auto;
+    padding:20px;
+    /* background: url(https://css-tricks.com/examples/CSS3Clock/images/clockface.jpg); */
+    /* background: url(https://irt-cdn.multiscreensite.com/91f9dabdedf84c6cbeffb8759965da91/dms3rep/multi/analog-clock1-600x600.jpg); */
+    background:url(https://irt-cdn.multiscreensite.com/91f9dabdedf84c6cbeffb8759965da91/dms3rep/multi/romanclock.jpg);
+    list-style: none;
+    background-repeat: no-repeat;
+  }
+  
+  #sec, #min, #hour {
+    position: absolute;
+    width: 30px;
+    height: 600px;
+    top: 0px;
+    left: 285px;
+  }
+  
+  #sec {
+    background: url(https://css-tricks.com/examples/CSS3Clock/images/sechand.png);
+    z-index: 3;
+  }
+     
+  #min {
+    background: url(https://css-tricks.com/examples/CSS3Clock/images/minhand.png);
+    z-index: 2;
+  }
+     
+  #hour {
+    background: url(https://css-tricks.com/examples/CSS3Clock/images/hourhand.png);
+    z-index: 1;
+  }
+  #sec {
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+ }
+
+ 
